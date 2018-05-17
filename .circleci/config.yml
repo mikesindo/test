@@ -5,4 +5,4 @@ jobs:
       - image: circleci/ruby:2.4.1
     steps:
       - checkout
-      - run: python3 mike.py
+      - run: python mike.py
